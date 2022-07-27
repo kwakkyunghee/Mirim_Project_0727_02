@@ -8,21 +8,23 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text_name"
+    <EditText
+        android:id="@+id/edit_name"
         android:layout_marginBottom="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사용자이름"
+        android:editable="false"
+        android:hint="사용자이름"
         android:textSize="25sp"
         android:textColor="#645171"/>
 
-    <TextView
-        android:id="@+id/text_email"
+    <EditText
+
+        android:id="@+id/edit_email"
         android:layout_marginBottom="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-mail"
+        android:hint="E-mail"
         android:textSize="25sp"
         android:textColor="#645171"/>
 
